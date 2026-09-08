@@ -1,19 +1,20 @@
 ---
-layout: home
-title: Nishant's Blog
+layout: default
+title: "Nishant's Blog"
 ---
 
 # Nishant's Blog
 
 Welcome to my technical blog.
 
-I write about:
+## Latest Articles
 
-- Java
-- Spring Boot
-- Backend Engineering
-- System Design
-- Microservices
-- Kafka
-- Cloud
-- Software Engineering
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+{{ post.excerpt }}
+
+[Read more →]({{ post.url | relative_url }})
+
+---
+{% endfor %}
