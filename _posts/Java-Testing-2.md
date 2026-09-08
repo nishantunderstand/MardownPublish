@@ -1,0 +1,1 @@
+assertIsSatisfied(camelContext) is the load-bearing check. It alone proves the entire pipeline ran end-to-end — session mocked → booking fetched → eligible → refund computed → sold → committed → overridden → settled → queue cleared.
