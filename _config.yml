@@ -1,0 +1,5 @@
+title: Nishant's Blog
+description: Articles about Java, Backend Engineering, System Design and Technology
+theme: minima
+plugins:
+  - jekyll-feed
