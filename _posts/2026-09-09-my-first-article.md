@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "My First Markdown Article"
-date: 2026-09-09
-----------------
+date: 2026-09-09 18:00:00 +0530
+---
 
 # My First Markdown Article
 
@@ -17,16 +16,8 @@ For example:
 
 ```java
 public class HelloWorld {
+
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
-```
-
-You can also write equations:
-
-$E = mc^2$
-
-## Conclusion
-
-My articles can now be stored, version-controlled, and published from GitHub.
